@@ -1,0 +1,30 @@
+STEP 0 - Create an account on GitHub [if you do not have one already]
+
+STEP 1 - Create a Personal Access Token on Github
+
+STEP 1.1 - Creating a personal access token:
+In the upper-right corner of any page, click your profile photo, then click Settings.
+In the left sidebar, click Developer settings.
+In the left sidebar, click Personal access tokens.
+Click Generate new token.
+Give your token a descriptive name.
+
+STEP 2 - Create your first repository
+
+STEP 3 - Clone your repository
+On the terminal, do the following:
+
+STEP 3.1 - Clone your repository
+root@896cf839cf9a:/# git clone https://{YOUR_PERSONAL_TOKEN}@github.com/{YOUR_USERNAME}/testing_course.git                  
+Cloning into 'testing_course'...
+warning: You appear to have cloned an empty repository.       
+Replace {YOUR_PERSONAL_TOKEN} with your token from step 1
+
+Replace {YOUR_USERNAME} with your username from step 0 and 1
+
+STEP 6 - Create the README.md and push the modifications
+Navigate to this new directory. Tips
+root@896cf839cf9a:/# cd testing_course/
+root@896cf839cf9a:/testing_course#
+
+                                                                ©Danbest
